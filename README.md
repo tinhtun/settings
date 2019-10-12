@@ -1,0 +1,2 @@
+# settings
+.bashrc .zshrc etc
