@@ -106,5 +106,14 @@ useActiveViamEKS() {
   export KUBECONFIG=$HOME/EKS/kubeconfig
 }
 
+useJDK8() {
+  export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+  export PATH=$JAVA_HOME/bin:$PATH
+}
+
+useJDK11() {
+  export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+  export PATH=$JAVA_HOME/bin:$PATH
+}
 # Run neofetch
 neofetch
