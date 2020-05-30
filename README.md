@@ -9,3 +9,6 @@
     - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
 - Download powerline fonts `https://github.com/powerline/fonts`. Install one such as `Source Code Pro for Powerline`.
 - Change the font in your terminal.
+
+## NVM (Mac)
+- Follow official guide on `https://github.com/nvm-sh/nvm`. It will automatically setup your `.zshrc` as well.
